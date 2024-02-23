@@ -9,7 +9,7 @@ Pipline
             {
               git "https://github.com/gnana249/task.git"
               }
-        stage("run"
+        stage("run")
         {
          steps
             {
