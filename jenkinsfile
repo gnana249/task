@@ -14,8 +14,8 @@ pipline
         {
          steps
             {
-             sh Demo.java
-             sh main.py
+             sh "java Demo.java"
+             sh "main.py"
              }
         }
        }
