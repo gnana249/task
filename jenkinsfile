@@ -1,0 +1,23 @@
+
+pipline 
+     {
+      agent linux
+      stages
+      {
+       stage("git")
+       { 
+        step
+            {
+              git "https://github.com/gnana249/task.git"
+              }
+        stage("run"
+        {
+         steps
+            {
+             sh Demo.java
+             sh main.py
+             }
+        }
+       }
+      }//stages
+      }//pipline
