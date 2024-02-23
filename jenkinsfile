@@ -1,11 +1,10 @@
-
-pipline 
+Pipline 
      {
-      agent linux
+      agent any
       stages
       {
        stage("git")
-       { 
+       {
         step
             {
               git "https://github.com/gnana249/task.git"
