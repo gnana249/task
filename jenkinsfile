@@ -9,6 +9,7 @@ pipeline
             {
               git "https://github.com/gnana249/task.git"
               }
+}
         stage('run')
         {
          steps
@@ -17,6 +18,6 @@ pipeline
              sh "main.py"
              }
         }
-       }
+       
       }//stages
       }//pipeline
